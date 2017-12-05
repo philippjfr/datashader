@@ -20,7 +20,6 @@ dependencies:
  - distributed
  - fastparquet
  - flake8
- - gbrener::xarray>=0.9.6 # For xarray.open_rasterio()
  - geoviews
  - ioam::holoviews>=1.8.3
  - ipython
@@ -37,6 +36,7 @@ dependencies:
  - pandas
  - param>=1.5.1
  - paramnb
+ - pillow=4.0.0
  - pyproj
  - pytables
  - python-snappy
@@ -49,6 +49,7 @@ dependencies:
  - snappy
  - statsmodels
  - tblib
+ - xarray
  - yaml
  - pip:
    - cachey
